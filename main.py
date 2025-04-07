@@ -4,6 +4,17 @@ from os import system
 from sms import SendSms
 import threading
 
+
+#rich
+
+"""
+replace colorama with  rich.
+also change turkish variable names to english.
+make multi threaded 
+and lastly add func tools lr cache?
+"""
+
+
 servisler_sms = []
 for attribute in dir(SendSms):
     attribute_value = getattr(SendSms, attribute)
